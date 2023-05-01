@@ -1,0 +1,105 @@
+body{
+    background-color: #F3F5FC;
+ 
+}
+
+#cajaTerminal{
+    /* Rectangle 1 */
+
+
+position: absolute;
+width: 400px;
+height: 95%;
+left: 69%;
+top: 3%;
+
+/* White */
+
+background: #FFFFFF;
+/* shadow */
+
+box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+border-radius: 32px;
+}
+#cajaBotonEncriptar{
+    position: fixed;
+    bottom: 0;
+    left: 10%;
+    width: 10%;
+    height: 15%;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+gap: 8px;
+
+}
+#encriptador{
+position: absolute;
+width: 328px;
+height: 67px;
+    
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+
+/* Dark blue/dark-blue-300 */
+color: #FFFFFF;
+background: #0A3871;
+border-radius: 24px;
+ 
+}
+#cajaBotonDesencriptar{
+    position: fixed;
+    bottom: 0;
+    left: 40%;
+    width: 10%;
+    height: 15%;
+
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+}
+#desencriptador {
+/* Font */
+
+font-family: "Arial";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+    /* Button */
+box-sizing: border-box;
+
+/* Auto layout */
+
+
+width: 328px;
+height: 67px;
+
+/* Light gray */
+
+background: #D8DFE8;
+/* Dark blue/dark-blue-300 */
+color: #0A3871;
+border: 1px solid #0A3871;
+border-radius: 24px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+}
